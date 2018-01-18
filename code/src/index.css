@@ -1,5 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  box-sizing: border-box;
+  background: #b0cf68;
 }
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 45px;
+  color: #43464B;
+  margin-top: 85px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+ .App {
+   text-align: center;
+   width: 600px;
+   height: 100%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: #f8faf5;
+ }
