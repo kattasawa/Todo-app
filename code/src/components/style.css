@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
 
 .style-input-line input {
   background-color: transparent;
@@ -8,11 +8,11 @@
   /* margin: 45px 20px 20px 20px; */
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid #b0cf68;
+  border-bottom: 2px solid #43464B;
 }
 
 .add-button {
-  background-color: #b0cf68;
+  background-color: #43464B;
   border: none;
   border-radius: 2px;
   color: white;
@@ -32,8 +32,10 @@
 }
 
 label {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 23px;
   margin-left: 32px;
-  color: #b0cf68;
+  color: #43464B;
 }
 
 .item-list {
@@ -68,11 +70,11 @@ label {
 }
 
 .item-list:hover input ~ .checkmark {
-  background-color: #cddc3957;
+  background-color: #ff980057;
 }
 
 .item-list input:checked ~ .checkmark {
-  background-color: #71b646;
+  background-color: #ffeb3b;
 }
 
 .checkmark:after {
